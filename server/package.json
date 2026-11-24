@@ -1,0 +1,13 @@
+{
+  "name": "agrimunim-ai-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "keygen": "node -e \"console.log(require('crypto').randomBytes(24).toString('base64url'))\""
+  }
+}
